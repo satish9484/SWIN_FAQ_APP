@@ -30,7 +30,7 @@ const Sidebar = () => {
       breakpoint="md"
     >
       <figure className="layout-logo">
-        <p className="logo">BRIGHT BOOST</p>
+        <p className="logo">SWIN FAQ</p>
         <img
           className="logo-icon"
           src={toAbsoluteUrl("/images/logo-icon.svg")}

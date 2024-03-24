@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Union, UserICon } from "../svg";
+import { Union } from "../svg";
 
 function getSidebarItem(label, key, icon, children) {
   return {
@@ -10,8 +10,6 @@ function getSidebarItem(label, key, icon, children) {
   };
 }
 
-
-
 // Sidebar items for student
 export const studentSidebarItems = [
   getSidebarItem(
@@ -21,14 +19,4 @@ export const studentSidebarItems = [
       <Union />
     </Link>
   ),
-  
-  getSidebarItem(
-    "Helpline",
-    "helpline",
-    <Link to="/swin/helpline">
-      <UserICon />
-    </Link>
-  ),
 ];
-
-
